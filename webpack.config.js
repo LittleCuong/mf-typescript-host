@@ -8,7 +8,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = (_, argv) => ({
   output: {
     // local
-    publicPath: "http://localhost:8080/",
+    // publicPath: "http://localhost:8080/",
 
     // deployed
     publicPath: "https://main.d219oo8bkd6xcl.amplifyapp.com/",

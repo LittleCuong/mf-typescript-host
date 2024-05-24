@@ -17,6 +17,7 @@ const App = () => (
   <Authenticator>
       {({ signOut, user }) => (  
         <div className="mt-10 text-3xl mx-auto max-w-6xl">
+          <h3>Hello {user?.username}</h3>
           <Remote/>
         </div>
       )}
