@@ -55,7 +55,7 @@ module.exports = (_, argv) => ({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        remote: "remote@https://main.d2svqrb4suvshc.amplifyapp.com/remoteEntry.js"
+        remote: "remote@https://main.dl71rq11tiul9.amplifyapp.com/remoteEntry.js"
       },
       exposes: {},
       shared: {
